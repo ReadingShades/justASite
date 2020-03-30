@@ -76,3 +76,8 @@ article img{
     50% {background-color: #66d37e;}
     100% {background-color: #083836;}
   }
+
+  video{
+     height: 15em;
+     width: 15em; 
+  }
