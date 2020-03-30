@@ -1,5 +1,6 @@
 aside{
-    color: blue;    
+    color: blue;
+    padding: 0.1%;    
 }
 aside h1{
     font-size: 2em;
@@ -8,13 +9,42 @@ aside h1{
 .jumbotron{
     background-color: #c6e872;
     color: ivory;
+
 }
 .letraMini{
-    font-size: .75em;
+    font-size: .65em;
 }
+
+.border{
+    border: solid .05em green;   
+    align-items: center;
+    justify-content: center;     
+}
+
+.left{
+    left: 1%;
+    float: left;
+}
+
+.right{
+    float: right;
+    right: 1%;
+}
+
+.bg-img{
+    background-color: #66d37e;
+}
+
 article h1{
     padding: 1%;
 }
 article p{       
     padding: 1%;
+}
+article img{
+    height: 13em;
+    width: 13em;
+    position: relative;
+    left: 20%;
+    top: 5%;
 }
