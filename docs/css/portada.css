@@ -25,9 +25,9 @@ div{
   font-size: 0.855em;
 }
 
-.customTitle{
+.centerContent{
   align-self: center;
-  color: rgba(32, 181, 240, 0.589);
+  justify-content: center;
 }
 
 .jumbotron-fluid{
