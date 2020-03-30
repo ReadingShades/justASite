@@ -1,0 +1,20 @@
+aside{
+    color: blue;    
+}
+aside h1{
+    font-size: 2em;
+}
+
+.jumbotron{
+    background-color: #c6e872;
+    color: ivory;
+}
+.letraMini{
+    font-size: .75em;
+}
+article h1{
+    padding: 1%;
+}
+article p{       
+    padding: 1%;
+}
