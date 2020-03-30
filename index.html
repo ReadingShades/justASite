@@ -3,29 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/portada.css">
+
+    <link rel="stylesheet" href="./docs/css/portada.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Inicio</title>
 </head>
-<body>
-    <div class="grid-container">
-        <div class="Nav">
-            <a href="index.html">Inicio/Portada</a>
-            <a href="">Habitos</a>
-            <a href="">Pandemia</a>
-            <a href="">VidaUniversitaria</a>
-            <a href="">Lecciones</a>
+<body>    
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom" id="barraNav">
+            <a class="navbar-brand" href="#linkini">CARM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Inicio/Portada<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="">Habitos</a>
+                <a class="nav-item nav-link" href="">Pandemia</a>
+                <a class="nav-item nav-link" href="">VidaUniversitaria</a>
+                <a class="nav-item nav-link" href="">Lecciones</a> 
+              </div>
+            </div>
+          </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav">
+                    <li class="nav-item">
+                                                
+                    </li>
+                    <li class="nav-item">
+                                               
+                    </li>                    
+                </ul>
+            </div>
         </div>
-        <div class="Name">Carlos Ramirez</div>
-        <div class="Descrip">
-            <p>
-                Proyecto / diario / opiniones acerca de como ha cambiado mi dia a dia por causa del Covid-19.
-                Proyecto propuesto como una actividad evaluativa en la asignatura de Programacion Web I, CECAR.
-            </p>
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <h1>
+                        Carlos Andres Ramirez Muñiz
+                    </h1>                    
+                </div>
+                <p>
+                    Proyecto / diario / opiniones acerca de como ha cambiado mi dia a dia por causa del Covid-19.
+                    Proyecto propuesto como una actividad evaluativa en la asignatura de Programacion Web I, CECAR.
+                </p>
+            </div>
         </div>
-        <div class="Footer">
-            <p>Copyright 2019 Carlos Andres Ramirez Muñiz</p>
-        </div>
-        <div class="Empty"></div>
-      </div>
+        <footer class="mastfoot mt-auto">
+            <div class="inner footer-bar">
+              <p>Copyright 2020 Carlos Andres Ramirez Muñiz</p>          
+            </div>
+        </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
