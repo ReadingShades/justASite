@@ -39,7 +39,7 @@ article h1{
     padding: 1%;
 }
 article p{       
-    padding: 1%;
+    padding: 1%;    
 }
 article img{
     height: 13em;
@@ -48,3 +48,31 @@ article img{
     left: 20%;
     top: 5%;
 }
+
+.animationfw{    
+    animation-name: forwardBGFW;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes forwardBGFW {
+    0% {background-color: #66d37e;}
+    50% {background-color: #083836;}
+    100% {background-color: #66d37e;}
+  }
+  
+  .animationbw{    
+    animation-name: backwardBGBW;
+    animation-duration: 6s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes backwardBGBW {
+    0% {background-color: #083836;}
+    50% {background-color: #66d37e;}
+    100% {background-color: #083836;}
+  }
