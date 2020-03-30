@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1.8fr 0.2fr;
+    grid-template-areas: "Nav Nav Nav Nav" "Empty Name Name Name" "Empty Descrip Descrip Descrip" "Footer Footer Footer Footer";
+  }
+  
+  .Nav { grid-area: Nav; }
+  
+  .Name { grid-area: Name; }
+  
+  .Descrip { grid-area: Descrip; }
+  
+  .Footer { grid-area: Footer; }
+  
+  .Empty { grid-area: Empty; }
